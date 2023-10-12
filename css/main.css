@@ -11,7 +11,7 @@ body{
     width: 100%; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#7aeef8, #c7c8c8);
+    background: linear-gradient(#eec6c6, #becca9);
     background-repeat: no-repeat;
 }   
 /* Logo  */ 
@@ -20,7 +20,7 @@ body{
     justify-content: center;
 }
 .imagem img{
-    width: 170px;
+    width: 180px;
     border-radius: 200px;
     margin-top: 150px;
 }
@@ -32,6 +32,80 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: #308ff4;
+    color: #227e57;
     font-family: Arial, Helvetica, sans-serif;
 }
+.redes-sociais{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;/*centralizar-texto*/
+    align-items: center;
+    /* background: red; cor para DIV */
+
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}
+
+.icon, .email {
+   height: 35px;
+   width: 35px;
+    border-radius: 35px;
+    transition: all 0,3s ease-out;
+    box-shadow: 0 5px royalblue(0, 0, 1); /* caixa de sombra*/
+    margin: 5px;
+    overflow: hidden;/*efeito Mascara*/   
+  }
+
+.icon i, .email i{
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     line-height: 35px;
+     text-align: center;/*alinhar-texto*/
+     font-size: 20px;/*22*/
+   border-radius: 30px;
+   background-color: azure;
+   color: rgb(54, 63, 113); /* cor do texto*/
+   cursor: pointer;
+}
+
+.icon  span a{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    margin-right: 10px;
+    color: rgb(28, 28, 227);
+    font-size : 15px;
+    line-height:125px;
+    
+}
+.icon:hover{
+    width: 125px;
+    background-color: #4a3589;
+}
+
+.texto{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 500px;
+    height: 150px;
+    padding: 150px; ;
+    border-radius: 15px;
+    color: rgb(176, 192, 206);
+    background :#4a3589 ;
+    overflow: hidden;
+    box-shadow: 70px 10px lightcoral:
+    cursor: ;
+
+}
+.texto h2{
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(157, 196, 196);
+
+}
+
