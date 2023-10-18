@@ -11,7 +11,7 @@ body{
     width: 100%; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#1e1515, #becca9);
+    background: linear-gradient(#e7a5a5, #eecda2);
     background-repeat: no-repeat;
 }   
 /* Logo  */ 
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: #baa97c;
+    color: #928e81;
     font-family: Arial, Helvetica, sans-serif;
 }
 .redes-sociais{
@@ -66,8 +66,8 @@ body{
     text-align: center;/*alinhar-texto*/
     font-size: 20px;/*22*/
     border-radius: 30px;
-    background-color: azure;
-    color: rgb(54, 63, 113); /* cor do texto*/
+    background-color: rgb(189, 223, 223);
+    color: rgb(130, 143, 212); /* cor do texto*/
     cursor: pointer;
 }
 
@@ -76,14 +76,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
     float: right;
     margin-right: 10px;
-    color: rgb(28, 28, 227);
+    color: rgb(210, 197, 221);
     font-size : 15px;
     line-height:125px;
    
 }
 .icon:hover{
     width: 100px;
-    background-color: #bcb2d7;
+    background-color: #d2cce2;
 }
 
 .texto{
@@ -98,10 +98,10 @@ body{
     height: 300px;
     padding: 30px; ;
     border-radius: 24px;
-    color: rgb(156, 24, 24);
-    background-color:burlywood ;/* cor de fundo*/
+    color: rgb(105, 75, 36);
+    /* cor de fundo*/
     overflow: hidden;
-    box-shadow: 0 3px 3px blueviolet(0,0,0.1):
+    box-shadow: 0 3px 3px blueviolet(0,0,0.0):
 
 }
 .sobre-mim {
@@ -109,7 +109,7 @@ body{
     top: 10%; /*move o topo do h2 para o centro vertical*/
     /* para valores em porcentagem;*/
     display: flex;
-    color: rgb(51, 58, 58);
+    color: rgb(94, 8, 68);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 30px;
@@ -122,21 +122,23 @@ body{
     margin-top: 40px;
     margin-bottom: 45px;
     font-size: 30px;
-    color: gold;
+    color: rgb(51, 42, 31);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .projetos{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 150px;
 
 }
 .projetos img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 140px;
     box-shadow: 2px 2px 2px black;
+    margin-left: 40px;
+    
 }
     
 
