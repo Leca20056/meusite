@@ -1,22 +1,30 @@
-// tres constantes para referenciar as "ITEM" divs Projetos
-const form = document.getElementById('formulario');
-const site = document.getElementById('site');
-const port = document.getElementById('portifolio');
-const movieform = document.querySelector('.movieform');
-const moviesite = document.querySelector('.moviesite');
-const movieport = document.querySelector('.movieport');
+// três constantes para referenciar as "ITEM" divs Projetos
+
+const album = document.getElementById('albumFotos');
+const casamentos = document.getElementById('casamentos');
+const buffet = document.getElementById('buffet');
+const salao = document.getElementById('salao');
+
+const movieAlbum = document.querySelector('.movieAlbum');
+const movieCasamentos = document.querySelector('.movieCasamentos');
+const movieBufett = document.querySelector('.movieBuffet');
+const movieSalao = document.querySelector('.movieSalao');
 
 
-// evento de click
-form.addEventListener("click",() => {
-    form.classList.toggle('active');
-    movieform.classList.toggle('active');
+// eveto de clik
+album.addEventListener('click', () =>{
+   album.classList.toggle('active');
+   movieAlbum.classList.toggle('active');
 });
-site.addEventListener("click",() => {
-    site.classList.toggle('active');
-    moviesite.classList.toggle('active');
-});
-port.addEventListener("click",() => {
-    port.classList.toggle('active');
-    movieport.classList.toggle('active');
+casamentos.addEventListener('click', () =>{
+    casamentos.classList.toggle('active');
+    movieCasamentos.classList.toggle('active');
+    });
+buffet.addEventListener('click' ,() =>{
+     buffet.classList.toggle('active');
+     movieBufett.classList.toggle('active');
+    });
+salao.addEventListener('click',() =>{
+    salao.classList.toggle('active');
+    movieSalao.classList.toggle('active');
 });
